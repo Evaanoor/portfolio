@@ -55,6 +55,7 @@ const Work = () => {
           </div>
         </div>
 
+        {/*
         <div>
           <h3 className="text-2xl font-bold mb-10 text-gray-400 font-mono tracking-widest border-b border-white/10 pb-4 inline-block">
             FNB
@@ -82,6 +83,7 @@ const Work = () => {
             ))}
           </div>
         </div>
+        */}
 
       </div>
     </section>

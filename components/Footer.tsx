@@ -29,7 +29,7 @@ const Footer = () => {
 
 
         <div className="flex flex-col gap-6">
-         <h3 className="text-gray-900 dark:text-white font-bold text-lg">Navigasi</h3>
+         <h3 className="text-gray-900 dark:text-white font-bold text-lg">Links</h3>
           <ul className="flex flex-col gap-4 text-gray-500 dark:text-gray-400 text-sm font-mono">
             <li><a href="#hero" className="hover:text-neon transition-colors">Home</a></li>
             <li><a href="#projects" className="hover:text-neon transition-colors">Projects</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
 
 
         <div className="flex flex-col gap-6">
-          <h3 className="text-gray-900 dark:text-white font-bold text-lg">Kontak</h3>
+          <h3 className="text-gray-900 dark:text-white font-bold text-lg">Contact</h3>
           <div className="flex flex-col gap-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
             <p>Yogyakarta, Indonesia</p>
             <a href="mailto:epaapull@email.com" className="hover:text-neon transition-colors">epaapull@gmail.com</a>
