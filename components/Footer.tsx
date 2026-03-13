@@ -2,6 +2,14 @@ import React from 'react';
 import { FaInstagram, FaXTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa6';
 
 const Footer = () => {
+
+  const socials = [
+    { Icon: FaInstagram, href: "https://instagram.com/evaank._" },
+    { Icon: FaXTwitter, href: "#" },
+    { Icon: FaLinkedinIn, href: "https://linkedin.com/in/evaank" },
+    { Icon: FaGithub, href: "https://github.com/Evaanoor" },
+  ];
+
   return (
     <footer className="mt-20 border-t border-gray-200 dark:border-white/5 bg-gray-50 dark:bg-[#0a0a0a] px-6 md:px-24 py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24">
@@ -10,18 +18,15 @@ const Footer = () => {
           <div className="text-xl font-bold tracking-tighter text-gray-900 dark:text-white">
             <span className="text-neon">eva's</span>.portfolio™
           </div>
-          {/*<p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed max-w-xs">
-            Membangun solusi digital dengan fokus pada performa, estetika modern, dan pengalaman pengguna yang bermakna.
-          </p>*/}
           
           <div className="flex gap-4">
-            {[FaInstagram, FaXTwitter, FaLinkedinIn, FaGithub].map((Icon, index) => (
+            {socials.map((social, index) => (
               <a 
                 key={index} 
-                href="#" 
+                href={social.href} 
                 className="w-10 h-10 bg-white dark:bg-white rounded-full flex items-center justify-center hover:bg-neon hover:scale-110 transition-all text-black"
               >
-                <Icon size={18} />
+                <social.Icon size={18} />
               </a>
             ))}
           </div>

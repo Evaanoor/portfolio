@@ -60,12 +60,18 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-wrap gap-4 mt-12">
-          <button className="bg-neon text-black px-8 py-3 rounded-xl font-bold hover:brightness-110 hover:scale-105 transition-all">
+          <a
+            href="#contact"
+            className="bg-neon text-black px-8 py-3 rounded-xl font-bold hover:brightness-110 hover:scale-105 transition-all inline-flex items-center justify-center"
+          >
             Contact
-          </button>
-          <button className="bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 px-8 py-3 rounded-xl font-bold hover:bg-gray-200 dark:hover:bg-white/10 transition-all text-gray-900 dark:text-white">
+          </a>
+          <a
+            href="#projects"
+            className="bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 px-8 py-3 rounded-xl font-bold hover:bg-gray-200 dark:hover:bg-white/10 transition-all text-gray-900 dark:text-white inline-flex items-center justify-center"
+          >
             View Projects
-          </button>
+          </a>
         </div>
       </div>
 
